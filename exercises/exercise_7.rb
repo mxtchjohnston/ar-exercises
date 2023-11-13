@@ -10,3 +10,7 @@ puts "Exercise 7"
 puts "----------"
 
 # Your code goes here ...
+puts "Validation"
+@ans = gets.chomp
+puts @ans
+p Store.create(name: @ans)
